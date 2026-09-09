@@ -1,12 +1,11 @@
 <?php
-$soma = 0;
-for($numero = 1; $numero <=10; $numero++){
-    $soma = $soma + $numero;
-}
 
-echo" A soma dos numeros de 1 até 10:", $soma;
+$n = [1,2,3,4,5,6,7,8,9,10];
 
-?>
+foreach($n as $numeros){
+    if($numeros % 2 == 0){
+        echo "$numeros <br>";
+    
 
-
-
+    }
+  }

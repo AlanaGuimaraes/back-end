@@ -1,10 +1,20 @@
 <?php
 
-$qtd = 0;
-for($num = 1; $num <= 50; $num++){
-    if($num % 3 == 0){
-        echo "Múltiplo de 3: $num <br>";
-        $qtd = $qtd + 1;
-    }
+$playlist = [
+    "Exagerado",
+    "Cuida do pet",
+    "Aquarela",
+    "Eu te seguro",
+    "Purple rain",
+    "Mania de você",
+    "Os anjos cantam"
+];
+
+echo "Músicas da playlist:<br>";
+
+foreach ($playlist as $musica) {
+    echo $musica . "<br>";
 }
-echo "Quantidade de múltiplos de 3: $qtd";
+
+echo "<br>Total de músicas: " . count($playlist);
+?>

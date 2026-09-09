@@ -1,10 +1,6 @@
 <?php
 
-echo "Números pares: <br>";
-for($numero = 1; $numero <=30; $numero=$numero+1){
-    if($numero%2 == 0){
-        echo"$numero <br>";
-    }
-}
+$alunos = ["Marlon", "Maria", "Ana", "Pedro"];
 
-?>
+//troque os indices 0,1,2,3 e 4 
+echo $alunos[2];

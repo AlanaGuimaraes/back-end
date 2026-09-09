@@ -1,8 +1,13 @@
 <?php
 
-for($numero = 10; $numero >=1; $numero--){
-   echo "$numero <br>";
-}
- echo "game over";
+$conviados = ["Marlon", "Maria", "Ana", "Pedro"];
 
-?>
+$qtd = count($conviados);
+
+echo "Quantidade de convidados:", $qtd;
+
+
+
+
+
+

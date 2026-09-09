@@ -1,13 +1,11 @@
 <?php
 
-//coloque o numero da tabuada q quiser
-$num = 9;
-for($i = 1; $i <=10; $i++){
-    $resultado  = $num * $i;
+$numeros = [22, 2, 3, 4, 55, 6, 7, 8, 9, 19];
+$maior = $numeros[0];
 
-    echo"num x $i = $resultado <br>";
+foreach($numeros as $num){
+    if($num > $maior){
+        $maior = $num;
+    }
 }
-
-
-
-?>
+echo "O maior número é: $maior";
