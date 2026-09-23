@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Agendamento na Barbearia</title>
+</head>
+
+<body>
+
+    <h1>Agendamento na Barbearia</h1>
+
+    <form action="barbearia.php" method="POST">
+
+        Nome:
+        <input type="text" name="nome">
+        <br><br>
+
+        Idade:
+        <input type="number" name="idade">
+        <br><br>
+
+        Serviço:
+        <select name="servico">
+            <option value="Corte">Corte</option>
+            <option value="Barba">Barba</option>
+            <option value="Corte + Barba">Corte + Barba</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Agendar">
+
+    </form>
+
+</body>
+</html>
